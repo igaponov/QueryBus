@@ -1,0 +1,23 @@
+{
+    "name": "igaponov/query-bus",
+    "description": "Generic classes and interfaces for query bus",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gaponov Igor",
+            "email": "jiminy96@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "QueryBus\\": "src/QueryBus"
+        }
+    }
+}
